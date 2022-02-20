@@ -1,7 +1,100 @@
 body{
     width: 1600px;
+    font-family: 'Roboto', 'Raleway', sans-serif;
 }
 
+/* верхня часть сайта*/
+.header {
+    width: 1600px;
+    height: 80px;
+    left: 0px;
+    top: 0px;
+    
+}
+.header-web-studio {
+    position: absolute;
+    width: 145px;
+    height: 31px;
+    left: 215px;
+    top: 24px;
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 26px;
+    line-height: 31px;
+    /* identical to box height */
+    letter-spacing: 0.03em;
+    color: #2196F3;
+    text-decoration: none;
+
+}
+.header-studio {
+    color: black;
+
+}
+
+.header-navigation {
+    position: absolute;
+    left: 453px;
+    top: 32px;
+    width: 294px;
+    height: 16px;
+}
+.header-navigation-list {
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+ 
+}
+
+.header-navigation-list-studio{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+    color: #212121;
+    text-decoration: none;
+}
+
+.header-contacts {
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+}
+
+.header-mail {
+    position: absolute;
+    width: 135px;
+    height: 16px;
+    left: 1078px;
+    top: 32px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+    color: #757575;
+    text-decoration: none;
+}
+
+.header-phone {
+    position: absolute;
+    width: 140px;
+    height: 16px;
+    left: 1263px;
+    top: 32px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+    color: #757575;
+    text-decoration: none;
+}
 /*
 font-family: 'Montserrat', sans-serif;
 font-family: 'Raleway', sans-serif;
