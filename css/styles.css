@@ -181,6 +181,194 @@ color: #2196F3;
     cursor: pointer;
 }
 
+/*Список решений*/
+.decision-list {
+    position: relative;
+    display: flex;
+    left: 215px;
+}
+
+.decision-list-item{
+    list-style-type: none;
+    width: 270px;
+    height: 101px;
+    margin-left: 30px;
+}
+
+.decision-list-header {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #212121;
+}
+
+.decision-list-desc {
+    font-family: Roboto;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    color: #757575;
+}
+
+/*изображения чем занимаемся*/
+.pictures-what-we-do {
+    position: relative;
+    width: 1170px;
+    height: 386px;
+    left: 215px;
+    margin-top: 94px;
+}
+
+.pictures-what-we-do-list {
+    display: flex;
+    list-style-type: none;
+}
+
+.pictures-what-we-do-list-item2 {
+    margin-left: 30px;
+}
+
+.pictures-what-we-do-header {
+    font-family: Roboto;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #212121;
+}
+
+/*our team*/
+.our-team {
+    width: 1600px;
+    height: 648px;
+    background: #F5F4FA;
+    margin-top: 94px;
+    padding-top: 94px;
+}
+
+.our-team-header {
+    font-family: Roboto;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #212121;
+}
+.our-team-list {
+    position: relative;
+    display: flex;
+    width: 1170px;
+    height: 368px;
+    list-style-type: none;
+    left: 185px;
+}
+
+.our-team-list-item,
+.our-team-list-item2{
+    width: 270px;
+    height: 368px;
+}
+.our-team-list-item2 {
+    margin-left: 30px;
+}
+
+
+.our-team-name-member {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #212121;
+}
+
+.our-team-member-profession {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    letter-spacing: 0.03em;
+
+color: #757575;
+}
+
+/*Footer*/
+
+.contact-info {
+    width: 1600px;
+    height: 252px;
+    background-color: #2F303A;
+}
+
+.footer-web-studio {
+    position: relative;
+    left: 215px;
+    top: 60px;
+    font-family: Raleway;
+    font-weight: bold;
+    font-size: 26px;
+    line-height: 31px;
+    letter-spacing: 0.03em;
+    text-decoration: none;
+}
+.footer-web {
+    color: #2196F3;
+}
+
+.footer-studio {
+    color:#fff;
+}
+
+.footer-address {
+    position: relative;
+    left: 215px;
+    top: 81px;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+}
+
+.footer-address-location {
+    font-family: Roboto;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.footer-address-email {
+    font-family: Roboto;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.6);
+    text-decoration: none;
+    
+}
+
+.footer-address-phone {
+    font-family: Roboto;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.6);
+    text-decoration: none;
+}
 /*
 font-family: 'Montserrat', sans-serif;
 font-family: 'Raleway', sans-serif;
