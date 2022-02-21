@@ -33,10 +33,11 @@ body{
 
 }
 
+/* навигация сайта*/
 .header-navigation {
     position: absolute;
     left: 453px;
-    top: 32px;
+    top: 15px;
     width: 294px;
     height: 16px;
 }
@@ -58,6 +59,40 @@ body{
     text-decoration: none;
 }
 
+.header-navigation-list-portfolio {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+    color: #212121;
+    margin-left: 50px;
+    text-decoration: none;
+}
+
+.header-navigation-list-studio:hover,
+.header-navigation-list-studio:focus,
+.header-navigation-list-portfolio:hover,
+.header-navigation-list-portfolio:focus,
+.header-navigation-list-contacts:hover,
+.header-navigation-list-contacts:focus {
+    color: #2196F3;
+}
+
+.header-navigation-list-contacts {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+    color: #212121;
+    text-decoration: none;
+    margin-left: 50px;
+}
+
+/*права часть шапки*/
 .header-contacts {
     display: flex;
     flex-direction: row;
@@ -79,6 +114,10 @@ body{
     color: #757575;
     text-decoration: none;
 }
+.header-mail:hover,
+.header-mail:focus{
+color: #2196F3;
+}
 
 .header-phone {
     position: absolute;
@@ -95,6 +134,53 @@ body{
     color: #757575;
     text-decoration: none;
 }
+
+.header-phone:hover,
+.header-phone:focus{
+    color: #2196F3;
+}
+
+/* the main part of the site*/
+/* hat */
+.hat {
+    background-color: #2F303A;
+    width: 1600px;
+    height: 600px;
+    
+}
+
+.hat-header{
+    position: relative;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 60px;
+    /* or 136% */
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    width: 696px;
+    height: 120px;
+    left: 452px;
+    top: 200px;
+    color: #fff;
+}
+
+.hat-button {
+    position: relative;
+    left: 700px;
+    top: 230px;
+    text-align: center;
+    width: 200px;
+    height: 50px;
+    background: #2196F3;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+    color: #fff;
+    cursor: pointer;
+}
+
 /*
 font-family: 'Montserrat', sans-serif;
 font-family: 'Raleway', sans-serif;
